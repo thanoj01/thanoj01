@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "title": "Two Sum",
+    "slug": "two-sum",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Hash Table"
+    ],
+    "solvedAt": "2026-09-01T16:21:16.293Z",
+    "folderName": "0001-two-sum"
+  }
+]

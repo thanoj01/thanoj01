@@ -1,0 +1,19 @@
+{
+  "totalSolved": 1,
+  "easy": 1,
+  "medium": 0,
+  "hard": 0,
+  "currentStreak": 1,
+  "longestStreak": 1,
+  "languages": {
+    "python": 1
+  },
+  "topics": {
+    "Array": 1,
+    "Hash Table": 1
+  },
+  "monthlySolves": {
+    "2026-09": 1
+  },
+  "lastSolved": "2026-09-01T16:21:16.293Z"
+}

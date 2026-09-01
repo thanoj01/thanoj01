@@ -1,0 +1,20 @@
+{
+  "difficulty": "Easy",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/two-sum/submissions/2127452180/",
+  "memory": "0.00\nMB",
+  "problemId": 1,
+  "runtime": "0 ms",
+  "slug": "two-sum",
+  "sourceCode": "class Solution:\n    def twoSum(self, nums, target):\n        seen = {}\n\n        for i, num in enumerate(nums):\n            complement = target - num\n\n            if complement in seen:\n                return [seen[complement], i]\n\n            seen[num] = i",
+  "submittedAt": "2026-09-01T16:21:16.293Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nnums = [2,7,11,15]\ntarget = 9\nOutput = [0,1]\nExpected = [0,1]\n\nCase 2:\nStatus: Passed\nInput:\nnums = [3,2,4]\ntarget = 6\nOutput = [1,2]\nExpected = [1,2]\n\nCase 3:\nStatus: Passed\nInput:\nnums = [3,3]\ntarget = 6\nOutput = [0,1]\nExpected = [0,1]",
+  "title": "Two Sum",
+  "topics": [
+    "Array",
+    "Hash Table"
+  ],
+  "submissionDate": "2026-09-01T16:21:16.293Z",
+  "folderName": "0001-two-sum",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0001-two-sum/solution.py"
+}
