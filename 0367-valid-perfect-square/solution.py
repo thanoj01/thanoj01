@@ -6,11 +6,9 @@ class Solution:
         while low <= high:
             mid = (low + high) // 2
 
-            square = mid * mid
-
-            if square == num:
+            if mid * mid == num:
                 return True
-            elif square < num:
+            elif mid * mid < num:
                 low = mid + 1
             else:
                 high = mid - 1

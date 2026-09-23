@@ -17,5 +17,5 @@ See the accompanying solution file for the submitted implementation.
 
 ## Links
 
-- [LeetCode problem](https://leetcode.com/problems/valid-perfect-square/submissions/2150720423/)
+- [LeetCode problem](https://leetcode.com/problems/valid-perfect-square/submissions/2150723764/)
 - [GitHub source](https://github.com/thanoj01/thanoj01/blob/main/0367-valid-perfect-square/solution.py)

@@ -1,21 +1,21 @@
 {
-  "totalSolved": 2,
-  "easy": 2,
+  "totalSolved": 3,
+  "easy": 3,
   "medium": 0,
   "hard": 0,
   "currentStreak": 1,
   "longestStreak": 1,
   "languages": {
-    "python": 2
+    "python": 3
   },
   "topics": {
     "Array": 1,
     "Hash Table": 1,
-    "Math": 1,
-    "Binary Search": 1
+    "Math": 2,
+    "Binary Search": 2
   },
-  "lastSolved": "2026-09-23T09:36:00.440Z",
+  "lastSolved": "2026-09-23T09:39:30.001Z",
   "monthlySolves": {
-    "2026-09": 2
+    "2026-09": 3
   }
 }

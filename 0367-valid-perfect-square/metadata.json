@@ -1,20 +1,20 @@
 {
   "difficulty": "Easy",
   "language": "python",
-  "leetCodeUrl": "https://leetcode.com/problems/valid-perfect-square/submissions/2150720423/",
+  "leetCodeUrl": "https://leetcode.com/problems/valid-perfect-square/submissions/2150723764/",
   "memory": "Memory",
   "problemId": 367,
   "runtime": "0 ms",
   "slug": "valid-perfect-square",
-  "sourceCode": "class Solution:\n    def isPerfectSquare(self, num):\n        low = 1\n        high = num\n\n        while low <= high:\n            mid = (low + high) // 2\n\n            square = mid * mid\n\n            if square == num:\n                return True\n            elif square < num:\n                low = mid + 1\n            else:\n                high = mid - 1\n\n        return False",
-  "submittedAt": "2026-09-23T09:36:00.440Z",
+  "sourceCode": "class Solution:\n    def isPerfectSquare(self, num):\n        low = 1\n        high = num\n\n        while low <= high:\n            mid = (low + high) // 2\n\n            if mid * mid == num:\n                return True\n            elif mid * mid < num:\n                low = mid + 1\n            else:\n                high = mid - 1\n\n        return False",
+  "submittedAt": "2026-09-23T09:39:30.001Z",
   "testCases": "Case 1:\nStatus: Passed\nInput:\nnum = 16\nOutput = true\nExpected = true\n\nCase 2:\nStatus: Passed\nInput:\nnum = 14\nOutput = false\nExpected = false",
   "title": "Valid Perfect Square",
   "topics": [
     "Math",
     "Binary Search"
   ],
-  "submissionDate": "2026-09-23T09:36:00.440Z",
+  "submissionDate": "2026-09-23T09:39:30.001Z",
   "folderName": "0367-valid-perfect-square",
   "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0367-valid-perfect-square/solution.py"
 }
