@@ -1,0 +1,13 @@
+Case 1:
+Status: Passed
+Input:
+num = 16
+Output = true
+Expected = true
+
+Case 2:
+Status: Passed
+Input:
+num = 14
+Output = false
+Expected = false
