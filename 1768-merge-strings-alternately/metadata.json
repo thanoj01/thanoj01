@@ -1,0 +1,20 @@
+{
+  "difficulty": "Easy",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/merge-strings-alternately/submissions/2151851780/",
+  "memory": "0.00\nMB",
+  "problemId": 1768,
+  "runtime": "7 ms",
+  "slug": "merge-strings-alternately",
+  "sourceCode": "class Solution:\n    def mergeAlternately(self, word1, word2):\n        result = \"\"\n        i = 0\n\n        while i < len(word1) or i < len(word2):\n            if i < len(word1):\n                result += word1[i]\n\n            if i < len(word2):\n                result += word2[i]\n\n            i += 1\n\n        return result",
+  "submittedAt": "2026-09-24T09:57:26.382Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nword1 = \"abc\"\nword2 = \"pqr\"\nOutput = \"apbqcr\"\nExpected = \"apbqcr\"\n\nCase 2:\nStatus: Passed\nInput:\nword1 = \"ab\"\nword2 = \"pqrs\"\nOutput = \"apbqrs\"\nExpected = \"apbqrs\"\n\nCase 3:\nStatus: Passed\nInput:\nword1 = \"abcd\"\nword2 = \"pq\"\nOutput = \"apbqcd\"\nExpected = \"apbqcd\"",
+  "title": "Merge Strings Alternately",
+  "topics": [
+    "Two Pointers",
+    "String"
+  ],
+  "submissionDate": "2026-09-24T09:57:26.382Z",
+  "folderName": "1768-merge-strings-alternately",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/1768-merge-strings-alternately/solution.py"
+}

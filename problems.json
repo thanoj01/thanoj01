@@ -79,5 +79,18 @@
     ],
     "solvedAt": "2026-09-24T09:12:02.932Z",
     "folderName": "1051-height-checker"
+  },
+  {
+    "id": 1768,
+    "title": "Merge Strings Alternately",
+    "slug": "merge-strings-alternately",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Two Pointers",
+      "String"
+    ],
+    "solvedAt": "2026-09-24T09:57:26.382Z",
+    "folderName": "1768-merge-strings-alternately"
   }
 ]

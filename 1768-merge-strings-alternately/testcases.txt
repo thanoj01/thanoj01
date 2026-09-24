@@ -1,0 +1,23 @@
+Case 1:
+Status: Passed
+Input:
+word1 = "abc"
+word2 = "pqr"
+Output = "apbqcr"
+Expected = "apbqcr"
+
+Case 2:
+Status: Passed
+Input:
+word1 = "ab"
+word2 = "pqrs"
+Output = "apbqrs"
+Expected = "apbqrs"
+
+Case 3:
+Status: Passed
+Input:
+word1 = "abcd"
+word2 = "pq"
+Output = "apbqcd"
+Expected = "apbqcd"

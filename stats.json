@@ -1,12 +1,12 @@
 {
-  "totalSolved": 7,
-  "easy": 5,
+  "totalSolved": 8,
+  "easy": 6,
   "medium": 2,
   "hard": 0,
   "currentStreak": 2,
   "longestStreak": 2,
   "languages": {
-    "python": 7
+    "python": 8
   },
   "topics": {
     "Array": 4,
@@ -16,10 +16,12 @@
     "Newton's Method": 1,
     "Sorting": 1,
     "Counting Sort": 1,
-    "Bubble Sort": 1
+    "Bubble Sort": 1,
+    "Two Pointers": 1,
+    "String": 1
   },
-  "lastSolved": "2026-09-24T09:17:18.245Z",
+  "lastSolved": "2026-09-24T09:57:26.382Z",
   "monthlySolves": {
-    "2026-09": 7
+    "2026-09": 8
   }
 }
