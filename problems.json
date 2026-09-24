@@ -27,6 +27,19 @@
     "folderName": "0069-sqrtx"
   },
   {
+    "id": 162,
+    "title": "Find Peak Element",
+    "slug": "find-peak-element",
+    "difficulty": "Medium",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "solvedAt": "2026-09-24T09:12:48.550Z",
+    "folderName": "0162-find-peak-element"
+  },
+  {
     "id": 367,
     "title": "Valid Perfect Square",
     "slug": "valid-perfect-square",
