@@ -53,6 +53,19 @@
     "folderName": "0367-valid-perfect-square"
   },
   {
+    "id": 875,
+    "title": "Koko Eating Bananas",
+    "slug": "koko-eating-bananas",
+    "difficulty": "Medium",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "solvedAt": "2026-09-24T09:17:18.245Z",
+    "folderName": "0875-koko-eating-bananas"
+  },
+  {
     "id": 1051,
     "title": "Height Checker",
     "slug": "height-checker",

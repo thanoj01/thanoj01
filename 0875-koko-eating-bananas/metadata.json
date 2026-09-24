@@ -1,0 +1,20 @@
+{
+  "difficulty": "Medium",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/koko-eating-bananas/submissions/2151816607/",
+  "memory": "0.00\nMB",
+  "problemId": 875,
+  "runtime": "0 ms",
+  "slug": "koko-eating-bananas",
+  "sourceCode": "class Solution:\n    def minEatingSpeed(self, piles, h):\n        left = 1\n        right = max(piles)\n\n        while left < right:\n            mid = (left + right) // 2\n\n            hours = 0\n            for pile in piles:\n                hours += (pile + mid - 1) // mid\n\n            if hours <= h:\n                right = mid\n            else:\n                left = mid + 1\n\n        return left",
+  "submittedAt": "2026-09-24T09:17:18.245Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\npiles = [3,6,7,11]\nh = 8\nOutput = 4\nExpected = 4\n\nCase 2:\nStatus: Passed\nInput:\npiles = [30,11,23,4,20]\nh = 5\nOutput = 30\nExpected = 30\n\nCase 3:\nStatus: Passed\nInput:\npiles = [30,11,23,4,20]\nh = 6\nOutput = 23\nExpected = 23",
+  "title": "Koko Eating Bananas",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "submissionDate": "2026-09-24T09:17:18.245Z",
+  "folderName": "0875-koko-eating-bananas",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0875-koko-eating-bananas/solution.py"
+}
