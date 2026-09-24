@@ -1,21 +1,22 @@
 {
-  "totalSolved": 3,
-  "easy": 3,
+  "totalSolved": 4,
+  "easy": 4,
   "medium": 0,
   "hard": 0,
-  "currentStreak": 1,
-  "longestStreak": 1,
+  "currentStreak": 2,
+  "longestStreak": 2,
   "languages": {
-    "python": 3
+    "python": 4
   },
   "topics": {
     "Array": 1,
     "Hash Table": 1,
-    "Math": 2,
-    "Binary Search": 2
+    "Math": 3,
+    "Binary Search": 3,
+    "Newton's Method": 1
   },
-  "lastSolved": "2026-09-23T09:39:30.001Z",
+  "lastSolved": "2026-09-24T09:09:45.975Z",
   "monthlySolves": {
-    "2026-09": 3
+    "2026-09": 4
   }
 }

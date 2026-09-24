@@ -1,0 +1,13 @@
+Case 1:
+Status: Passed
+Input:
+x = 4
+Output = 2
+Expected = 2
+
+Case 2:
+Status: Passed
+Input:
+x = 8
+Output = 2
+Expected = 2

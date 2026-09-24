@@ -1,0 +1,21 @@
+{
+  "difficulty": "Easy",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/sqrtx/submissions/2151809641/",
+  "memory": "Memory",
+  "problemId": 69,
+  "runtime": "0 ms",
+  "slug": "sqrtx",
+  "sourceCode": "class Solution:\n    def mySqrt(self, x):\n        if x < 2:\n            return x\n\n        left = 1\n        right = x // 2\n        ans = 0\n\n        while left <= right:\n            mid = (left + right) // 2\n\n            if mid * mid == x:\n                return mid\n            elif mid * mid < x:\n                ans = mid\n                left = mid + 1\n            else:\n                right = mid - 1\n\n        return ans",
+  "submittedAt": "2026-09-24T09:09:45.975Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nx = 4\nOutput = 2\nExpected = 2\n\nCase 2:\nStatus: Passed\nInput:\nx = 8\nOutput = 2\nExpected = 2",
+  "title": "Sqrt(x)",
+  "topics": [
+    "Math",
+    "Binary Search",
+    "Newton's Method"
+  ],
+  "submissionDate": "2026-09-24T09:09:45.975Z",
+  "folderName": "0069-sqrtx",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0069-sqrtx/solution.py"
+}

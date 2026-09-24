@@ -13,6 +13,20 @@
     "folderName": "0001-two-sum"
   },
   {
+    "id": 69,
+    "title": "Sqrt(x)",
+    "slug": "sqrtx",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Math",
+      "Binary Search",
+      "Newton's Method"
+    ],
+    "solvedAt": "2026-09-24T09:09:45.975Z",
+    "folderName": "0069-sqrtx"
+  },
+  {
     "id": 367,
     "title": "Valid Perfect Square",
     "slug": "valid-perfect-square",
