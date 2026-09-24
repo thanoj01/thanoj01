@@ -1,0 +1,22 @@
+{
+  "difficulty": "Easy",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/height-checker/submissions/2151811795/",
+  "memory": "0.00\nMB",
+  "problemId": 1051,
+  "runtime": "0 ms",
+  "slug": "height-checker",
+  "sourceCode": "class Solution:\n    def heightChecker(self, heights):\n        expected = sorted(heights)\n\n        count = 0\n\n        for i in range(len(heights)):\n            if heights[i] != expected[i]:\n                count += 1\n\n        return count",
+  "submittedAt": "2026-09-24T09:12:02.932Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nheights = [1,1,4,2,1,3]\nOutput = 3\nExpected = 3\n\nCase 2:\nStatus: Passed\nInput:\nheights = [5,1,2,3,4]\nOutput = 5\nExpected = 5\n\nCase 3:\nStatus: Passed\nInput:\nheights = [1,2,3,4,5]\nOutput = 0\nExpected = 0",
+  "title": "Height Checker",
+  "topics": [
+    "Array",
+    "Sorting",
+    "Counting Sort",
+    "Bubble Sort"
+  ],
+  "submissionDate": "2026-09-24T09:12:02.932Z",
+  "folderName": "1051-height-checker",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/1051-height-checker/solution.py"
+}

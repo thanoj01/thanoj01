@@ -1,0 +1,20 @@
+Case 1:
+Status: Passed
+Input:
+heights = [1,1,4,2,1,3]
+Output = 3
+Expected = 3
+
+Case 2:
+Status: Passed
+Input:
+heights = [5,1,2,3,4]
+Output = 5
+Expected = 5
+
+Case 3:
+Status: Passed
+Input:
+heights = [1,2,3,4,5]
+Output = 0
+Expected = 0

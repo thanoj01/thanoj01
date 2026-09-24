@@ -38,5 +38,20 @@
     ],
     "solvedAt": "2026-09-23T09:39:30.001Z",
     "folderName": "0367-valid-perfect-square"
+  },
+  {
+    "id": 1051,
+    "title": "Height Checker",
+    "slug": "height-checker",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Sorting",
+      "Counting Sort",
+      "Bubble Sort"
+    ],
+    "solvedAt": "2026-09-24T09:12:02.932Z",
+    "folderName": "1051-height-checker"
   }
 ]
