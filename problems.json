@@ -53,6 +53,21 @@
     "folderName": "0367-valid-perfect-square"
   },
   {
+    "id": 846,
+    "title": "Hand of Straights",
+    "slug": "hand-of-straights",
+    "difficulty": "Medium",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
+    ],
+    "solvedAt": "2026-09-28T06:56:50.220Z",
+    "folderName": "0846-hand-of-straights"
+  },
+  {
     "id": 875,
     "title": "Koko Eating Bananas",
     "slug": "koko-eating-bananas",

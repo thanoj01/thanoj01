@@ -1,27 +1,28 @@
 {
-  "totalSolved": 8,
+  "totalSolved": 9,
   "easy": 6,
-  "medium": 2,
+  "medium": 3,
   "hard": 0,
-  "currentStreak": 2,
+  "currentStreak": 1,
   "longestStreak": 2,
   "languages": {
-    "python": 8
+    "python": 9
   },
   "topics": {
-    "Array": 4,
-    "Hash Table": 1,
+    "Array": 5,
+    "Hash Table": 2,
     "Math": 3,
     "Binary Search": 5,
     "Newton's Method": 1,
-    "Sorting": 1,
+    "Sorting": 2,
     "Counting Sort": 1,
     "Bubble Sort": 1,
     "Two Pointers": 1,
-    "String": 1
+    "String": 1,
+    "Greedy": 1
   },
-  "lastSolved": "2026-09-24T09:57:26.382Z",
+  "lastSolved": "2026-09-28T06:56:50.220Z",
   "monthlySolves": {
-    "2026-09": 8
+    "2026-09": 9
   }
 }

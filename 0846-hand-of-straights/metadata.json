@@ -1,0 +1,22 @@
+{
+  "difficulty": "Medium",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/hand-of-straights/submissions/2155684143/",
+  "memory": "Memory",
+  "problemId": 846,
+  "runtime": "0 ms",
+  "slug": "hand-of-straights",
+  "sourceCode": "from collections import Counter\n\nclass Solution:\n    def isNStraightHand(self, hand, groupSize):\n        if len(hand) % groupSize != 0:\n            return False\n\n        count = Counter(hand)\n\n        for card in sorted(count):\n            if count[card] > 0:\n                freq = count[card]\n\n                for i in range(card, card + groupSize):\n                    if count[i] < freq:\n                        return False\n                    count[i] -= freq\n\n        return True",
+  "submittedAt": "2026-09-28T06:56:50.220Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nhand = [1,2,3,6,2,3,4,7,8]\ngroupSize = 3\nOutput = true\nExpected = true\n\nCase 2:\nStatus: Passed\nInput:\nhand = [1,2,3,4,5]\ngroupSize = 4\nOutput = false\nExpected = false",
+  "title": "Hand of Straights",
+  "topics": [
+    "Array",
+    "Hash Table",
+    "Greedy",
+    "Sorting"
+  ],
+  "submissionDate": "2026-09-28T06:56:50.220Z",
+  "folderName": "0846-hand-of-straights",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0846-hand-of-straights/solution.py"
+}
