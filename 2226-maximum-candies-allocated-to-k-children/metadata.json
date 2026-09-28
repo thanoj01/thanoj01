@@ -1,0 +1,20 @@
+{
+  "difficulty": "Medium",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/maximum-candies-allocated-to-k-children/submissions/2155687201/",
+  "memory": "Memory",
+  "problemId": 2226,
+  "runtime": "0 ms",
+  "slug": "maximum-candies-allocated-to-k-children",
+  "sourceCode": "class Solution:\n    def maximumCandies(self, candies, k):\n        left = 1\n        right = max(candies)\n        answer = 0\n\n        while left <= right:\n            mid = (left + right) // 2\n\n            children = 0\n\n            for pile in candies:\n                children += pile // mid\n\n            if children >= k:\n                answer = mid\n                left = mid + 1\n            else:\n                right = mid - 1\n\n        return answer",
+  "submittedAt": "2026-09-28T07:00:08.719Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\ncandies = [5,8,6]\nk = 3\nOutput = 5\nExpected = 5\n\nCase 2:\nStatus: Passed\nInput:\ncandies = [2,5]\nk = 11\nOutput = 0\nExpected = 0",
+  "title": "Maximum Candies Allocated to K Children",
+  "topics": [
+    "Array",
+    "Binary Search"
+  ],
+  "submissionDate": "2026-09-28T07:00:08.719Z",
+  "folderName": "2226-maximum-candies-allocated-to-k-children",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/2226-maximum-candies-allocated-to-k-children/solution.py"
+}

@@ -123,5 +123,18 @@
     ],
     "solvedAt": "2026-09-24T09:57:26.382Z",
     "folderName": "1768-merge-strings-alternately"
+  },
+  {
+    "id": 2226,
+    "title": "Maximum Candies Allocated to K Children",
+    "slug": "maximum-candies-allocated-to-k-children",
+    "difficulty": "Medium",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "solvedAt": "2026-09-28T07:00:08.719Z",
+    "folderName": "2226-maximum-candies-allocated-to-k-children"
   }
 ]
