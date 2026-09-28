@@ -1,0 +1,21 @@
+{
+  "difficulty": "Medium",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/subarray-sum-equals-k/submissions/2155685330/",
+  "memory": "Memory",
+  "problemId": 560,
+  "runtime": "0 ms",
+  "slug": "subarray-sum-equals-k",
+  "sourceCode": "class Solution:\n    def subarraySum(self, nums, k):\n        count = 0\n        prefix_sum = 0\n        freq = {0: 1}\n\n        for num in nums:\n            prefix_sum += num\n\n            if prefix_sum - k in freq:\n                count += freq[prefix_sum - k]\n\n            freq[prefix_sum] = freq.get(prefix_sum, 0) + 1\n\n        return count",
+  "submittedAt": "2026-09-28T06:58:06.751Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nnums = [1,1,1]\nk = 2\nOutput = 2\nExpected = 2\n\nCase 2:\nStatus: Passed\nInput:\nnums = [1,2,3]\nk = 3\nOutput = 2\nExpected = 2",
+  "title": "Subarray Sum Equals K",
+  "topics": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "submissionDate": "2026-09-28T06:58:06.751Z",
+  "folderName": "0560-subarray-sum-equals-k",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0560-subarray-sum-equals-k/solution.py"
+}

@@ -53,6 +53,20 @@
     "folderName": "0367-valid-perfect-square"
   },
   {
+    "id": 560,
+    "title": "Subarray Sum Equals K",
+    "slug": "subarray-sum-equals-k",
+    "difficulty": "Medium",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "solvedAt": "2026-09-28T06:58:06.751Z",
+    "folderName": "0560-subarray-sum-equals-k"
+  },
+  {
     "id": 846,
     "title": "Hand of Straights",
     "slug": "hand-of-straights",
