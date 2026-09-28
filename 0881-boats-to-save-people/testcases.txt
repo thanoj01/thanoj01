@@ -1,0 +1,23 @@
+Case 1:
+Status: Passed
+Input:
+people = [1,2]
+limit = 3
+Output = 1
+Expected = 1
+
+Case 2:
+Status: Passed
+Input:
+people = [3,2,2,1]
+limit = 3
+Output = 3
+Expected = 3
+
+Case 3:
+Status: Passed
+Input:
+people = [3,5,3,4]
+limit = 5
+Output = 4
+Expected = 4
