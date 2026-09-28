@@ -1,0 +1,13 @@
+Case 1:
+Status: Passed
+Input:
+nums = [2,3,-2,4]
+Output = 6
+Expected = 6
+
+Case 2:
+Status: Passed
+Input:
+nums = [-2,0,-1]
+Output = 0
+Expected = 0

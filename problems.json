@@ -27,6 +27,19 @@
     "folderName": "0069-sqrtx"
   },
   {
+    "id": 152,
+    "title": "Maximum Product Subarray",
+    "slug": "maximum-product-subarray",
+    "difficulty": "Medium",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "solvedAt": "2026-09-28T09:10:10.864Z",
+    "folderName": "0152-maximum-product-subarray"
+  },
+  {
     "id": 162,
     "title": "Find Peak Element",
     "slug": "find-peak-element",

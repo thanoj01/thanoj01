@@ -1,0 +1,20 @@
+{
+  "difficulty": "Medium",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/maximum-product-subarray/submissions/2155786692/",
+  "memory": "Memory",
+  "problemId": 152,
+  "runtime": "0 ms",
+  "slug": "maximum-product-subarray",
+  "sourceCode": "class Solution:\n    def maxProduct(self, nums):\n        cur_max = nums[0]\n        cur_min = nums[0]\n        ans = nums[0]\n\n        for i in range(1, len(nums)):\n            x = nums[i]\n\n            if x < 0:\n                cur_max, cur_min = cur_min, cur_max\n\n            cur_max = max(x, cur_max * x)\n            cur_min = min(x, cur_min * x)\n\n            ans = max(ans, cur_max)\n\n        return ans",
+  "submittedAt": "2026-09-28T09:10:10.864Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\nnums = [2,3,-2,4]\nOutput = 6\nExpected = 6\n\nCase 2:\nStatus: Passed\nInput:\nnums = [-2,0,-1]\nOutput = 0\nExpected = 0",
+  "title": "Maximum Product Subarray",
+  "topics": [
+    "Array",
+    "Dynamic Programming"
+  ],
+  "submissionDate": "2026-09-28T09:10:10.864Z",
+  "folderName": "0152-maximum-product-subarray",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0152-maximum-product-subarray/solution.py"
+}
