@@ -40,6 +40,21 @@
     "folderName": "0069-sqrtx"
   },
   {
+    "id": 94,
+    "title": "Binary Tree Inorder Traversal",
+    "slug": "binary-tree-inorder-traversal",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ],
+    "solvedAt": "2026-09-29T06:28:34.974Z",
+    "folderName": "0094-binary-tree-inorder-traversal"
+  },
+  {
     "id": 100,
     "title": "Same Tree",
     "slug": "same-tree",

@@ -1,12 +1,12 @@
 {
-  "totalSolved": 15,
-  "easy": 9,
+  "totalSolved": 16,
+  "easy": 10,
   "medium": 6,
   "hard": 0,
   "currentStreak": 2,
   "longestStreak": 2,
   "languages": {
-    "python": 15
+    "python": 16
   },
   "topics": {
     "Array": 10,
@@ -22,15 +22,15 @@
     "Greedy": 2,
     "Timsort": 1,
     "Dynamic Programming": 1,
-    "Stack": 1,
+    "Stack": 2,
     "Simulation": 1,
-    "Tree": 1,
-    "Depth-First Search": 1,
+    "Tree": 2,
+    "Depth-First Search": 2,
     "Breadth-First Search": 1,
-    "Binary Tree": 1
+    "Binary Tree": 2
   },
-  "lastSolved": "2026-09-29T06:27:32.675Z",
+  "lastSolved": "2026-09-29T06:28:34.974Z",
   "monthlySolves": {
-    "2026-09": 15
+    "2026-09": 16
   }
 }
