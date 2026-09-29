@@ -13,6 +13,19 @@
     "folderName": "0001-two-sum"
   },
   {
+    "id": 35,
+    "title": "Search Insert Position",
+    "slug": "search-insert-position",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Binary Search"
+    ],
+    "solvedAt": "2026-09-29T06:25:44.556Z",
+    "folderName": "0035-search-insert-position"
+  },
+  {
     "id": 69,
     "title": "Sqrt(x)",
     "slug": "sqrtx",

@@ -1,18 +1,18 @@
 {
-  "totalSolved": 13,
-  "easy": 7,
+  "totalSolved": 14,
+  "easy": 8,
   "medium": 6,
   "hard": 0,
   "currentStreak": 2,
   "longestStreak": 2,
   "languages": {
-    "python": 13
+    "python": 14
   },
   "topics": {
-    "Array": 9,
+    "Array": 10,
     "Hash Table": 2,
     "Math": 3,
-    "Binary Search": 6,
+    "Binary Search": 7,
     "Newton's Method": 1,
     "Sorting": 3,
     "Counting Sort": 1,
@@ -25,8 +25,8 @@
     "Stack": 1,
     "Simulation": 1
   },
-  "lastSolved": "2026-09-29T06:24:02.209Z",
+  "lastSolved": "2026-09-29T06:25:44.556Z",
   "monthlySolves": {
-    "2026-09": 13
+    "2026-09": 14
   }
 }
