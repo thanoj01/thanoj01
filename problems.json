@@ -66,6 +66,20 @@
     "folderName": "0367-valid-perfect-square"
   },
   {
+    "id": 682,
+    "title": "Baseball Game",
+    "slug": "baseball-game",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ],
+    "solvedAt": "2026-09-29T06:24:02.209Z",
+    "folderName": "0682-baseball-game"
+  },
+  {
     "id": 846,
     "title": "Hand of Straights",
     "slug": "hand-of-straights",

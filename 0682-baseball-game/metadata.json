@@ -1,0 +1,21 @@
+{
+  "difficulty": "Easy",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/baseball-game/submissions/2156760705/",
+  "memory": "12.56\nMB",
+  "problemId": 682,
+  "runtime": "0 ms",
+  "slug": "baseball-game",
+  "sourceCode": "class Solution:\n    def calPoints(self, operations):\n        record = []\n\n        for op in operations:\n            if op == \"C\":\n                record.pop()\n            elif op == \"D\":\n                record.append(2 * record[-1])\n            elif op == \"+\":\n                record.append(record[-1] + record[-2])\n            else:\n                record.append(int(op))\n\n        return sum(record)",
+  "submittedAt": "2026-09-29T06:24:02.209Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\noperations = [\"5\",\"2\",\"C\",\"D\",\"+\"]\nOutput = 30\nExpected = 30\n\nCase 2:\nStatus: Passed\nInput:\noperations = [\"5\",\"-2\",\"4\",\"C\",\"D\",\"9\",\"+\",\"+\"]\nOutput = 27\nExpected = 27\n\nCase 3:\nStatus: Passed\nInput:\noperations = [\"1\",\"C\"]\nOutput = 0\nExpected = 0",
+  "title": "Baseball Game",
+  "topics": [
+    "Array",
+    "Stack",
+    "Simulation"
+  ],
+  "submissionDate": "2026-09-29T06:24:02.209Z",
+  "folderName": "0682-baseball-game",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0682-baseball-game/solution.py"
+}
