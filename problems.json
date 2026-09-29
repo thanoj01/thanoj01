@@ -40,6 +40,21 @@
     "folderName": "0069-sqrtx"
   },
   {
+    "id": 100,
+    "title": "Same Tree",
+    "slug": "same-tree",
+    "difficulty": "Easy",
+    "language": "python",
+    "topics": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ],
+    "solvedAt": "2026-09-29T06:27:32.675Z",
+    "folderName": "0100-same-tree"
+  },
+  {
     "id": 152,
     "title": "Maximum Product Subarray",
     "slug": "maximum-product-subarray",

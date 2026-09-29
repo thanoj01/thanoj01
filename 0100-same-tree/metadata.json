@@ -1,0 +1,22 @@
+{
+  "difficulty": "Easy",
+  "language": "python",
+  "leetCodeUrl": "https://leetcode.com/problems/same-tree/submissions/2156764625/",
+  "memory": "Memory",
+  "problemId": 100,
+  "runtime": "0 ms",
+  "slug": "same-tree",
+  "sourceCode": "class Solution:\n    def isSameTree(self, p, q):\n        if p is None or q is None:\n            return p is q\n\n        if p.val != q.val:\n            return False\n\n        return self.isSameTree(p.left, q.left) and \\\n               self.isSameTree(p.right, q.right)",
+  "submittedAt": "2026-09-29T06:27:32.675Z",
+  "testCases": "Case 1:\nStatus: Passed\nInput:\np = [1,2,3]\nq = [1,2,3]\nOutput = true\nExpected = true\n\nCase 2:\nStatus: Passed\nInput:\np = [1,2]\nq = [1,null,2]\nOutput = false\nExpected = false\n\nCase 3:\nStatus: Passed\nInput:\np = [1,2,1]\nq = [1,1,2]\nOutput = false\nExpected = false",
+  "title": "Same Tree",
+  "topics": [
+    "Tree",
+    "Depth-First Search",
+    "Breadth-First Search",
+    "Binary Tree"
+  ],
+  "submissionDate": "2026-09-29T06:27:32.675Z",
+  "folderName": "0100-same-tree",
+  "githubUrl": "https://github.com/thanoj01/thanoj01/blob/main/0100-same-tree/solution.py"
+}
